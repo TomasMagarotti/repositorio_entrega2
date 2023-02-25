@@ -1,0 +1,180 @@
+*{
+    list-style: none;
+font-family: sans-serif;
+}
+    
+body{
+    background-image: url("../multimedia/pastalinda.jpeg");
+    background-size: cover;
+    }
+    
+.nav_container h1{
+    text-align: center;
+    font-size: 2rem;
+}
+
+.container{
+    border: solid 2px salmon ;}
+
+.flex ul{
+    display: flex;
+    flex-wrap:wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 1em;
+    
+}
+
+a:hover{
+ 
+    color:bisque;
+    background-color:salmon;
+}
+
+section img{
+    border-radius:5% ;
+}
+
+section.tittle_container{
+    font-size: 1.5rem;
+    text-align: center;
+    padding-top: 5em;
+    padding-bottom: 5em;
+}
+
+section.tittle_container.h1{
+    font-size: 4rem;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(56, 6, 6);
+}
+
+
+li a{
+        text-decoration: none;
+        list-style: none;
+        color: black;
+        font-size: 1.6em;
+  
+      
+    }
+
+
+.main_container{
+    margin-left: 1rem;
+}
+
+.main_container h1{
+    
+    color: black;
+
+}
+
+
+.image_container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    height: 200%;
+    
+}
+
+.encontratupasta
+{
+text-align: center;
+font-size: 1.5rem;
+}
+
+.ofertas{
+text-align: center;
+font-size: 1.5rem;
+
+}
+
+footer{
+    text-align: center;
+    
+    
+}
+
+/*quienes somos*/
+
+.container-flex{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    ;
+   ;
+    text-align: center;
+    background-color: bisque;
+}
+
+.flex-item1{
+    font-family: sans-serif;
+    font-size: 1.5rem;
+}
+
+.flex-item2{
+    font-size: 2rem ;
+    font-family: sans-serif;
+    color: rgb(129, 50, 19) ;
+}
+
+.grid-container{
+    
+
+    display: grid;
+    grid-template-columns: repeat(3,1fr)      ;
+    grid-template-rows: 200px 200px ;
+    height: 35rem;
+    
+   
+}
+.grid-item-1{
+    text-align:left;
+    margin: 20px;
+    
+}
+.grid-item-2{background-image: url(../multimedia/acd91fd2-0db6-49bf-b8cc-29df4047fae8_16-9-discover-aspect-ratio_default_0.jpeg);
+    background-size: cover;
+
+
+}
+ 
+.grid-item-3{
+    text-align:center;
+    margin: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+    
+}
+
+.grid-item-4{
+    background-image: url(../multimedia/carbonara.jpeg);
+    background-size: cover;
+}
+
+
+.grid-item-5{
+    text-align:left;
+    margin: 20px;
+    overflow: hidden;
+    
+}
+
+.grid-item-6{
+    background-image: url(../multimedia/homemade-flour-eggs-cooking-ingredients-1606526.jpeg);
+    background-size: cover;
+}
+
+/*productos*/
+
+.row{
+    margin: 100px 0px 100px 200px;
+}
+
+/*promociones*/
+
